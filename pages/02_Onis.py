@@ -1,9 +1,6 @@
 import pandas as pd
 import streamlit as st
 from PIL import Image
-from translate import Translator
-
-translator = Translator(to_lang='pt')
 
 arquivo = pd.read_csv('characters.csv')
 
